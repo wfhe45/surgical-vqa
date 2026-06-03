@@ -1,0 +1,233 @@
+{
+    "0": {
+        "metadata": {
+            "video_id": "case122",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Are there forceps being used here?",
+        "answer": "Yes, forceps are used to grasp tissue.",
+        "candidates": [
+            "Yes, forceps are used to grasp tissue.",
+            "Yes, forceps are used to grasp and manipulate tissue.",
+            "Yes, forceps are used to retract tissue.",
+            "Yes, forceps are used to grasp and retract tissue."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    },
+    "1": {
+        "metadata": {
+            "video_id": "case123",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a large needle driver among the listed tools?",
+        "answer": "No, only a small needle driver and grasper are visible.",
+        "candidates": [
+            "No, only a grasper and irrigator are visible.",
+            "No, only a small needle driver and grasper are visible.",
+            "No, only a grasper and bipolar forceps are visible.",
+            "No, only a grasper and irrigator are clearly visible."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    },
+    "2": {
+        "metadata": {
+            "video_id": "case124",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What type of forceps is mentioned?",
+        "answer": "Cadi\u00e8re Forceps",
+        "candidates": [
+            "Bipolar forceps.",
+            "Cadi\u00e8re Forceps",
+            "Cadi\u00e8re Forceps.",
+            "Grappling forceps."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Cadiere Forceps"
+    },
+    "3": {
+        "metadata": {
+            "video_id": "case125",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a suture required in this surgical step?",
+        "answer": "No, the suture is already in place.",
+        "candidates": [
+            "No, the suture is already in place.",
+            "No, the suture is already in place for tying.",
+            "No, the suture is already in place and being secured.",
+            "No, the suture is already in place and being tightened."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "4": {
+        "metadata": {
+            "video_id": "case126",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Was a large needle driver used in this clip?",
+        "answer": "No, only a small needle driver was used.",
+        "candidates": [
+            "No, only a small needle driver was used for suturing.",
+            "No, only a small needle driver was used.",
+            "No, only a smaller needle driver was used.",
+            "No, only a small needle driver was visible."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "5": {
+        "metadata": {
+            "video_id": "case127",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What organ is being manipulated?",
+        "answer": "Jejunum",
+        "candidates": [
+            "Jejunum",
+            "Stomach",
+            "Small intestine",
+            "Small intestine."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Uterine horn"
+    },
+    "6": {
+        "metadata": {
+            "video_id": "case128",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a needle driver involved in the procedure?",
+        "answer": "No, needle driver not visible.",
+        "candidates": [
+            "No, needle driver not visible.",
+            "No, no needle driver visible.",
+            "No, needle driver not visible or used.",
+            "No, needle driver not visible or active."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "7": {
+        "metadata": {
+            "video_id": "case129",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What procedure is this summary describing?",
+        "answer": "Surgical retraction and exposure of the abdominal wall.",
+        "candidates": [
+            "Lymph node dissection.",
+            "Gastric mobilization and retraction.",
+            "Surgical retraction and exposure of the abdominal wall.",
+            "Surgical retraction and exposure of the abdominal cavity."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Endoscopic surgery or a laparoscopic surgery"
+    },
+    "8": {
+        "metadata": {
+            "video_id": "case130",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What is the purpose of using forceps in this procedure?",
+        "answer": "retract peritoneum, grasp and hold tissue.",
+        "candidates": [
+            "retract peritoneum, expose abdominal wall.",
+            "retract peritoneum, grasp and hold tissue.",
+            "retract peritoneum, expose abdominal wall, maintain exposure.",
+            "retract peritoneum, expose tissue."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "To grasp and hold tissues or objects during the surgery."
+    },
+    "9": {
+        "metadata": {
+            "video_id": "case131",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is tissue being cut during this clip?",
+        "answer": "Yes, tissue is being dissected with scissors.",
+        "candidates": [
+            "Yes, the grasper retracts tissue as the hook advances for dissection.",
+            "Yes, the grasper retracts tissue as the bipolar instrument coagulates it.",
+            "Yes, tissue is being dissected with scissors.",
+            "Yes, tissue is actively dissected with scissors."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "10": {
+        "metadata": {
+            "video_id": "case132",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Was a large needle driver used during the surgery?",
+        "answer": "No, forceps are used to manipulate suture.",
+        "candidates": [
+            "No, forceps are used to manipulate the suture.",
+            "No, forceps are used to retract and manipulate tissue.",
+            "No, forceps are used to manipulate suture ends.",
+            "No, forceps are used to manipulate suture."
+        ],
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    }
+}

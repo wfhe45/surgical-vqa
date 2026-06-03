@@ -1,0 +1,34 @@
+# Model files (download from Hugging Face)
+models/
+
+# Test data (download from Hugging Face) — keep SURGVU25 extracted frames
+data/
+!data/testdata/
+!data/testdata/SURGVU25/
+!data/testdata/SURGVU25/**
+!data/test_data_surgvu25.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Results and logs (user-generated) — keep SURGVU25 inference results
+results
+!results/results_surgvu25*.json
+
+# IDE / OS
+.vscode/
+run_inference_lingshu*.sh
+.idea/
+.venv*
+.DS_Store
+*.swp
+
+# Temp
+*.tmp
+*.log
+
+# SURGVU25 video files (large, re-upload locally)
+SURGVU25_cat_2_sample_set_public/**/*.mp4
+SURGVU25_cat_2_sample_set_public/.DS_Store

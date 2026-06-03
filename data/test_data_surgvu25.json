@@ -1,0 +1,684 @@
+[
+  {
+    "id": "case122",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case122",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAre there forceps being used here?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "reference_answers": [
+      "No",
+      "No, forceps are not mentioned.",
+      "No forceps are being used.",
+      "No, there's no indication of forceps.",
+      "No forceps are listed."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case122/frame_000000.jpg",
+      "data/testdata/SURGVU25/case122/frame_000001.jpg",
+      "data/testdata/SURGVU25/case122/frame_000002.jpg",
+      "data/testdata/SURGVU25/case122/frame_000003.jpg",
+      "data/testdata/SURGVU25/case122/frame_000004.jpg",
+      "data/testdata/SURGVU25/case122/frame_000005.jpg",
+      "data/testdata/SURGVU25/case122/frame_000006.jpg",
+      "data/testdata/SURGVU25/case122/frame_000007.jpg",
+      "data/testdata/SURGVU25/case122/frame_000008.jpg",
+      "data/testdata/SURGVU25/case122/frame_000009.jpg",
+      "data/testdata/SURGVU25/case122/frame_000010.jpg",
+      "data/testdata/SURGVU25/case122/frame_000011.jpg",
+      "data/testdata/SURGVU25/case122/frame_000012.jpg",
+      "data/testdata/SURGVU25/case122/frame_000013.jpg",
+      "data/testdata/SURGVU25/case122/frame_000014.jpg",
+      "data/testdata/SURGVU25/case122/frame_000015.jpg",
+      "data/testdata/SURGVU25/case122/frame_000016.jpg",
+      "data/testdata/SURGVU25/case122/frame_000017.jpg",
+      "data/testdata/SURGVU25/case122/frame_000018.jpg",
+      "data/testdata/SURGVU25/case122/frame_000019.jpg",
+      "data/testdata/SURGVU25/case122/frame_000020.jpg",
+      "data/testdata/SURGVU25/case122/frame_000021.jpg",
+      "data/testdata/SURGVU25/case122/frame_000022.jpg",
+      "data/testdata/SURGVU25/case122/frame_000023.jpg",
+      "data/testdata/SURGVU25/case122/frame_000024.jpg",
+      "data/testdata/SURGVU25/case122/frame_000025.jpg",
+      "data/testdata/SURGVU25/case122/frame_000026.jpg",
+      "data/testdata/SURGVU25/case122/frame_000027.jpg",
+      "data/testdata/SURGVU25/case122/frame_000028.jpg",
+      "data/testdata/SURGVU25/case122/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case123",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case123",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nIs a large needle driver among the listed tools?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "reference_answers": [
+      "No",
+      "No, a large needle driver is not listed.",
+      "No large needle driver is included.",
+      "No, there's no large needle driver.",
+      "No, it doesn't appear a large needle driver is listed."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case123/frame_000000.jpg",
+      "data/testdata/SURGVU25/case123/frame_000001.jpg",
+      "data/testdata/SURGVU25/case123/frame_000002.jpg",
+      "data/testdata/SURGVU25/case123/frame_000003.jpg",
+      "data/testdata/SURGVU25/case123/frame_000004.jpg",
+      "data/testdata/SURGVU25/case123/frame_000005.jpg",
+      "data/testdata/SURGVU25/case123/frame_000006.jpg",
+      "data/testdata/SURGVU25/case123/frame_000007.jpg",
+      "data/testdata/SURGVU25/case123/frame_000008.jpg",
+      "data/testdata/SURGVU25/case123/frame_000009.jpg",
+      "data/testdata/SURGVU25/case123/frame_000010.jpg",
+      "data/testdata/SURGVU25/case123/frame_000011.jpg",
+      "data/testdata/SURGVU25/case123/frame_000012.jpg",
+      "data/testdata/SURGVU25/case123/frame_000013.jpg",
+      "data/testdata/SURGVU25/case123/frame_000014.jpg",
+      "data/testdata/SURGVU25/case123/frame_000015.jpg",
+      "data/testdata/SURGVU25/case123/frame_000016.jpg",
+      "data/testdata/SURGVU25/case123/frame_000017.jpg",
+      "data/testdata/SURGVU25/case123/frame_000018.jpg",
+      "data/testdata/SURGVU25/case123/frame_000019.jpg",
+      "data/testdata/SURGVU25/case123/frame_000020.jpg",
+      "data/testdata/SURGVU25/case123/frame_000021.jpg",
+      "data/testdata/SURGVU25/case123/frame_000022.jpg",
+      "data/testdata/SURGVU25/case123/frame_000023.jpg",
+      "data/testdata/SURGVU25/case123/frame_000024.jpg",
+      "data/testdata/SURGVU25/case123/frame_000025.jpg",
+      "data/testdata/SURGVU25/case123/frame_000026.jpg",
+      "data/testdata/SURGVU25/case123/frame_000027.jpg",
+      "data/testdata/SURGVU25/case123/frame_000028.jpg",
+      "data/testdata/SURGVU25/case123/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case124",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case124",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat type of forceps is mentioned?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cadiere Forceps"
+      }
+    ],
+    "reference_answers": [
+      "Cadiere Forceps",
+      "The type of forceps mentioned is Cadiere Forceps.",
+      "Cadiere Forceps are the type mentioned.",
+      "The forceps type is Cadiere Forceps.",
+      "Cadiere Forceps is the specific type referenced."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case124/frame_000000.jpg",
+      "data/testdata/SURGVU25/case124/frame_000001.jpg",
+      "data/testdata/SURGVU25/case124/frame_000002.jpg",
+      "data/testdata/SURGVU25/case124/frame_000003.jpg",
+      "data/testdata/SURGVU25/case124/frame_000004.jpg",
+      "data/testdata/SURGVU25/case124/frame_000005.jpg",
+      "data/testdata/SURGVU25/case124/frame_000006.jpg",
+      "data/testdata/SURGVU25/case124/frame_000007.jpg",
+      "data/testdata/SURGVU25/case124/frame_000008.jpg",
+      "data/testdata/SURGVU25/case124/frame_000009.jpg",
+      "data/testdata/SURGVU25/case124/frame_000010.jpg",
+      "data/testdata/SURGVU25/case124/frame_000011.jpg",
+      "data/testdata/SURGVU25/case124/frame_000012.jpg",
+      "data/testdata/SURGVU25/case124/frame_000013.jpg",
+      "data/testdata/SURGVU25/case124/frame_000014.jpg",
+      "data/testdata/SURGVU25/case124/frame_000015.jpg",
+      "data/testdata/SURGVU25/case124/frame_000016.jpg",
+      "data/testdata/SURGVU25/case124/frame_000017.jpg",
+      "data/testdata/SURGVU25/case124/frame_000018.jpg",
+      "data/testdata/SURGVU25/case124/frame_000019.jpg",
+      "data/testdata/SURGVU25/case124/frame_000020.jpg",
+      "data/testdata/SURGVU25/case124/frame_000021.jpg",
+      "data/testdata/SURGVU25/case124/frame_000022.jpg",
+      "data/testdata/SURGVU25/case124/frame_000023.jpg",
+      "data/testdata/SURGVU25/case124/frame_000024.jpg",
+      "data/testdata/SURGVU25/case124/frame_000025.jpg",
+      "data/testdata/SURGVU25/case124/frame_000026.jpg",
+      "data/testdata/SURGVU25/case124/frame_000027.jpg",
+      "data/testdata/SURGVU25/case124/frame_000028.jpg",
+      "data/testdata/SURGVU25/case124/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case125",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case125",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nIs a suture required in this surgical step?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "reference_answers": [
+      "Yes",
+      "Yes, sutures are required.",
+      "Yes, a suture is necessary.",
+      "Yes, the procedure involves sutures.",
+      "Yes, suturing is part of the procedure."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case125/frame_000000.jpg",
+      "data/testdata/SURGVU25/case125/frame_000001.jpg",
+      "data/testdata/SURGVU25/case125/frame_000002.jpg",
+      "data/testdata/SURGVU25/case125/frame_000003.jpg",
+      "data/testdata/SURGVU25/case125/frame_000004.jpg",
+      "data/testdata/SURGVU25/case125/frame_000005.jpg",
+      "data/testdata/SURGVU25/case125/frame_000006.jpg",
+      "data/testdata/SURGVU25/case125/frame_000007.jpg",
+      "data/testdata/SURGVU25/case125/frame_000008.jpg",
+      "data/testdata/SURGVU25/case125/frame_000009.jpg",
+      "data/testdata/SURGVU25/case125/frame_000010.jpg",
+      "data/testdata/SURGVU25/case125/frame_000011.jpg",
+      "data/testdata/SURGVU25/case125/frame_000012.jpg",
+      "data/testdata/SURGVU25/case125/frame_000013.jpg",
+      "data/testdata/SURGVU25/case125/frame_000014.jpg",
+      "data/testdata/SURGVU25/case125/frame_000015.jpg",
+      "data/testdata/SURGVU25/case125/frame_000016.jpg",
+      "data/testdata/SURGVU25/case125/frame_000017.jpg",
+      "data/testdata/SURGVU25/case125/frame_000018.jpg",
+      "data/testdata/SURGVU25/case125/frame_000019.jpg",
+      "data/testdata/SURGVU25/case125/frame_000020.jpg",
+      "data/testdata/SURGVU25/case125/frame_000021.jpg",
+      "data/testdata/SURGVU25/case125/frame_000022.jpg",
+      "data/testdata/SURGVU25/case125/frame_000023.jpg",
+      "data/testdata/SURGVU25/case125/frame_000024.jpg",
+      "data/testdata/SURGVU25/case125/frame_000025.jpg",
+      "data/testdata/SURGVU25/case125/frame_000026.jpg",
+      "data/testdata/SURGVU25/case125/frame_000027.jpg",
+      "data/testdata/SURGVU25/case125/frame_000028.jpg",
+      "data/testdata/SURGVU25/case125/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case126",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case126",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWas a large needle driver used in this clip?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "reference_answers": [
+      "Yes",
+      "Yes, a large needle driver was utilized.",
+      "Yes, it appears a large needle driver was used.",
+      "Yes, a large needle driver was part of the procedure.",
+      "Yes, the procedure involved a large needle driver."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case126/frame_000000.jpg",
+      "data/testdata/SURGVU25/case126/frame_000001.jpg",
+      "data/testdata/SURGVU25/case126/frame_000002.jpg",
+      "data/testdata/SURGVU25/case126/frame_000003.jpg",
+      "data/testdata/SURGVU25/case126/frame_000004.jpg",
+      "data/testdata/SURGVU25/case126/frame_000005.jpg",
+      "data/testdata/SURGVU25/case126/frame_000006.jpg",
+      "data/testdata/SURGVU25/case126/frame_000007.jpg",
+      "data/testdata/SURGVU25/case126/frame_000008.jpg",
+      "data/testdata/SURGVU25/case126/frame_000009.jpg",
+      "data/testdata/SURGVU25/case126/frame_000010.jpg",
+      "data/testdata/SURGVU25/case126/frame_000011.jpg",
+      "data/testdata/SURGVU25/case126/frame_000012.jpg",
+      "data/testdata/SURGVU25/case126/frame_000013.jpg",
+      "data/testdata/SURGVU25/case126/frame_000014.jpg",
+      "data/testdata/SURGVU25/case126/frame_000015.jpg",
+      "data/testdata/SURGVU25/case126/frame_000016.jpg",
+      "data/testdata/SURGVU25/case126/frame_000017.jpg",
+      "data/testdata/SURGVU25/case126/frame_000018.jpg",
+      "data/testdata/SURGVU25/case126/frame_000019.jpg",
+      "data/testdata/SURGVU25/case126/frame_000020.jpg",
+      "data/testdata/SURGVU25/case126/frame_000021.jpg",
+      "data/testdata/SURGVU25/case126/frame_000022.jpg",
+      "data/testdata/SURGVU25/case126/frame_000023.jpg",
+      "data/testdata/SURGVU25/case126/frame_000024.jpg",
+      "data/testdata/SURGVU25/case126/frame_000025.jpg",
+      "data/testdata/SURGVU25/case126/frame_000026.jpg",
+      "data/testdata/SURGVU25/case126/frame_000027.jpg",
+      "data/testdata/SURGVU25/case126/frame_000028.jpg",
+      "data/testdata/SURGVU25/case126/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case127",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case127",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat organ is being manipulated?"
+      },
+      {
+        "from": "gpt",
+        "value": "Uterine horn"
+      }
+    ],
+    "reference_answers": [
+      "Uterine horn",
+      "The organ being manipulated is the uterine horn.",
+      "Uterine horn is being manipulated.",
+      "The manipulation involves the uterine horn.",
+      "The organ in focus is the uterine horn."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case127/frame_000000.jpg",
+      "data/testdata/SURGVU25/case127/frame_000001.jpg",
+      "data/testdata/SURGVU25/case127/frame_000002.jpg",
+      "data/testdata/SURGVU25/case127/frame_000003.jpg",
+      "data/testdata/SURGVU25/case127/frame_000004.jpg",
+      "data/testdata/SURGVU25/case127/frame_000005.jpg",
+      "data/testdata/SURGVU25/case127/frame_000006.jpg",
+      "data/testdata/SURGVU25/case127/frame_000007.jpg",
+      "data/testdata/SURGVU25/case127/frame_000008.jpg",
+      "data/testdata/SURGVU25/case127/frame_000009.jpg",
+      "data/testdata/SURGVU25/case127/frame_000010.jpg",
+      "data/testdata/SURGVU25/case127/frame_000011.jpg",
+      "data/testdata/SURGVU25/case127/frame_000012.jpg",
+      "data/testdata/SURGVU25/case127/frame_000013.jpg",
+      "data/testdata/SURGVU25/case127/frame_000014.jpg",
+      "data/testdata/SURGVU25/case127/frame_000015.jpg",
+      "data/testdata/SURGVU25/case127/frame_000016.jpg",
+      "data/testdata/SURGVU25/case127/frame_000017.jpg",
+      "data/testdata/SURGVU25/case127/frame_000018.jpg",
+      "data/testdata/SURGVU25/case127/frame_000019.jpg",
+      "data/testdata/SURGVU25/case127/frame_000020.jpg",
+      "data/testdata/SURGVU25/case127/frame_000021.jpg",
+      "data/testdata/SURGVU25/case127/frame_000022.jpg",
+      "data/testdata/SURGVU25/case127/frame_000023.jpg",
+      "data/testdata/SURGVU25/case127/frame_000024.jpg",
+      "data/testdata/SURGVU25/case127/frame_000025.jpg",
+      "data/testdata/SURGVU25/case127/frame_000026.jpg",
+      "data/testdata/SURGVU25/case127/frame_000027.jpg",
+      "data/testdata/SURGVU25/case127/frame_000028.jpg",
+      "data/testdata/SURGVU25/case127/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case128",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case128",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nIs a needle driver involved in the procedure?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "reference_answers": [
+      "Yes",
+      "Yes, a needle driver is involved.",
+      "Yes, the procedure includes a needle driver.",
+      "Yes, a needle driver is being used.",
+      "Yes, needle driver is part of the procedure."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case128/frame_000000.jpg",
+      "data/testdata/SURGVU25/case128/frame_000001.jpg",
+      "data/testdata/SURGVU25/case128/frame_000002.jpg",
+      "data/testdata/SURGVU25/case128/frame_000003.jpg",
+      "data/testdata/SURGVU25/case128/frame_000004.jpg",
+      "data/testdata/SURGVU25/case128/frame_000005.jpg",
+      "data/testdata/SURGVU25/case128/frame_000006.jpg",
+      "data/testdata/SURGVU25/case128/frame_000007.jpg",
+      "data/testdata/SURGVU25/case128/frame_000008.jpg",
+      "data/testdata/SURGVU25/case128/frame_000009.jpg",
+      "data/testdata/SURGVU25/case128/frame_000010.jpg",
+      "data/testdata/SURGVU25/case128/frame_000011.jpg",
+      "data/testdata/SURGVU25/case128/frame_000012.jpg",
+      "data/testdata/SURGVU25/case128/frame_000013.jpg",
+      "data/testdata/SURGVU25/case128/frame_000014.jpg",
+      "data/testdata/SURGVU25/case128/frame_000015.jpg",
+      "data/testdata/SURGVU25/case128/frame_000016.jpg",
+      "data/testdata/SURGVU25/case128/frame_000017.jpg",
+      "data/testdata/SURGVU25/case128/frame_000018.jpg",
+      "data/testdata/SURGVU25/case128/frame_000019.jpg",
+      "data/testdata/SURGVU25/case128/frame_000020.jpg",
+      "data/testdata/SURGVU25/case128/frame_000021.jpg",
+      "data/testdata/SURGVU25/case128/frame_000022.jpg",
+      "data/testdata/SURGVU25/case128/frame_000023.jpg",
+      "data/testdata/SURGVU25/case128/frame_000024.jpg",
+      "data/testdata/SURGVU25/case128/frame_000025.jpg",
+      "data/testdata/SURGVU25/case128/frame_000026.jpg",
+      "data/testdata/SURGVU25/case128/frame_000027.jpg",
+      "data/testdata/SURGVU25/case128/frame_000028.jpg",
+      "data/testdata/SURGVU25/case128/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case129",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case129",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat procedure is this summary describing?"
+      },
+      {
+        "from": "gpt",
+        "value": "Endoscopic surgery or a laparoscopic surgery"
+      }
+    ],
+    "reference_answers": [
+      "Endoscopic surgery or a laparoscopic surgery",
+      "The summary is describing endoscopic or laparoscopic surgery.",
+      "This appears to be endoscopic or laparoscopic surgery.",
+      "The procedure is likely endoscopic or laparoscopic surgery.",
+      "It's endoscopic surgery or laparoscopic surgery based on the summary."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case129/frame_000000.jpg",
+      "data/testdata/SURGVU25/case129/frame_000001.jpg",
+      "data/testdata/SURGVU25/case129/frame_000002.jpg",
+      "data/testdata/SURGVU25/case129/frame_000003.jpg",
+      "data/testdata/SURGVU25/case129/frame_000004.jpg",
+      "data/testdata/SURGVU25/case129/frame_000005.jpg",
+      "data/testdata/SURGVU25/case129/frame_000006.jpg",
+      "data/testdata/SURGVU25/case129/frame_000007.jpg",
+      "data/testdata/SURGVU25/case129/frame_000008.jpg",
+      "data/testdata/SURGVU25/case129/frame_000009.jpg",
+      "data/testdata/SURGVU25/case129/frame_000010.jpg",
+      "data/testdata/SURGVU25/case129/frame_000011.jpg",
+      "data/testdata/SURGVU25/case129/frame_000012.jpg",
+      "data/testdata/SURGVU25/case129/frame_000013.jpg",
+      "data/testdata/SURGVU25/case129/frame_000014.jpg",
+      "data/testdata/SURGVU25/case129/frame_000015.jpg",
+      "data/testdata/SURGVU25/case129/frame_000016.jpg",
+      "data/testdata/SURGVU25/case129/frame_000017.jpg",
+      "data/testdata/SURGVU25/case129/frame_000018.jpg",
+      "data/testdata/SURGVU25/case129/frame_000019.jpg",
+      "data/testdata/SURGVU25/case129/frame_000020.jpg",
+      "data/testdata/SURGVU25/case129/frame_000021.jpg",
+      "data/testdata/SURGVU25/case129/frame_000022.jpg",
+      "data/testdata/SURGVU25/case129/frame_000023.jpg",
+      "data/testdata/SURGVU25/case129/frame_000024.jpg",
+      "data/testdata/SURGVU25/case129/frame_000025.jpg",
+      "data/testdata/SURGVU25/case129/frame_000026.jpg",
+      "data/testdata/SURGVU25/case129/frame_000027.jpg",
+      "data/testdata/SURGVU25/case129/frame_000028.jpg",
+      "data/testdata/SURGVU25/case129/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case130",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case130",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat is the purpose of using forceps in this procedure?"
+      },
+      {
+        "from": "gpt",
+        "value": "To grasp and hold tissues or objects during the surgery."
+      }
+    ],
+    "reference_answers": [
+      "To grasp and hold tissues or objects during the surgery.",
+      "The forceps are used for grasping and holding tissues or objects.",
+      "Forceps are utilized to grasp and hold tissues or objects.",
+      "The purpose of forceps is to grasp and hold tissues or objects.",
+      "Forceps are used to grasp, hold, and manipulate tissues or objects."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case130/frame_000000.jpg",
+      "data/testdata/SURGVU25/case130/frame_000001.jpg",
+      "data/testdata/SURGVU25/case130/frame_000002.jpg",
+      "data/testdata/SURGVU25/case130/frame_000003.jpg",
+      "data/testdata/SURGVU25/case130/frame_000004.jpg",
+      "data/testdata/SURGVU25/case130/frame_000005.jpg",
+      "data/testdata/SURGVU25/case130/frame_000006.jpg",
+      "data/testdata/SURGVU25/case130/frame_000007.jpg",
+      "data/testdata/SURGVU25/case130/frame_000008.jpg",
+      "data/testdata/SURGVU25/case130/frame_000009.jpg",
+      "data/testdata/SURGVU25/case130/frame_000010.jpg",
+      "data/testdata/SURGVU25/case130/frame_000011.jpg",
+      "data/testdata/SURGVU25/case130/frame_000012.jpg",
+      "data/testdata/SURGVU25/case130/frame_000013.jpg",
+      "data/testdata/SURGVU25/case130/frame_000014.jpg",
+      "data/testdata/SURGVU25/case130/frame_000015.jpg",
+      "data/testdata/SURGVU25/case130/frame_000016.jpg",
+      "data/testdata/SURGVU25/case130/frame_000017.jpg",
+      "data/testdata/SURGVU25/case130/frame_000018.jpg",
+      "data/testdata/SURGVU25/case130/frame_000019.jpg",
+      "data/testdata/SURGVU25/case130/frame_000020.jpg",
+      "data/testdata/SURGVU25/case130/frame_000021.jpg",
+      "data/testdata/SURGVU25/case130/frame_000022.jpg",
+      "data/testdata/SURGVU25/case130/frame_000023.jpg",
+      "data/testdata/SURGVU25/case130/frame_000024.jpg",
+      "data/testdata/SURGVU25/case130/frame_000025.jpg",
+      "data/testdata/SURGVU25/case130/frame_000026.jpg",
+      "data/testdata/SURGVU25/case130/frame_000027.jpg",
+      "data/testdata/SURGVU25/case130/frame_000028.jpg",
+      "data/testdata/SURGVU25/case130/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case131",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case131",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nIs tissue being cut during this clip?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "reference_answers": [
+      "Yes",
+      "Yes, tissue is being cut.",
+      "Yes, the clip shows tissue being cut.",
+      "Yes, cutting of tissue is occurring in this clip.",
+      "Yes, tissue cutting is taking place."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case131/frame_000000.jpg",
+      "data/testdata/SURGVU25/case131/frame_000001.jpg",
+      "data/testdata/SURGVU25/case131/frame_000002.jpg",
+      "data/testdata/SURGVU25/case131/frame_000003.jpg",
+      "data/testdata/SURGVU25/case131/frame_000004.jpg",
+      "data/testdata/SURGVU25/case131/frame_000005.jpg",
+      "data/testdata/SURGVU25/case131/frame_000006.jpg",
+      "data/testdata/SURGVU25/case131/frame_000007.jpg",
+      "data/testdata/SURGVU25/case131/frame_000008.jpg",
+      "data/testdata/SURGVU25/case131/frame_000009.jpg",
+      "data/testdata/SURGVU25/case131/frame_000010.jpg",
+      "data/testdata/SURGVU25/case131/frame_000011.jpg",
+      "data/testdata/SURGVU25/case131/frame_000012.jpg",
+      "data/testdata/SURGVU25/case131/frame_000013.jpg",
+      "data/testdata/SURGVU25/case131/frame_000014.jpg",
+      "data/testdata/SURGVU25/case131/frame_000015.jpg",
+      "data/testdata/SURGVU25/case131/frame_000016.jpg",
+      "data/testdata/SURGVU25/case131/frame_000017.jpg",
+      "data/testdata/SURGVU25/case131/frame_000018.jpg",
+      "data/testdata/SURGVU25/case131/frame_000019.jpg",
+      "data/testdata/SURGVU25/case131/frame_000020.jpg",
+      "data/testdata/SURGVU25/case131/frame_000021.jpg",
+      "data/testdata/SURGVU25/case131/frame_000022.jpg",
+      "data/testdata/SURGVU25/case131/frame_000023.jpg",
+      "data/testdata/SURGVU25/case131/frame_000024.jpg",
+      "data/testdata/SURGVU25/case131/frame_000025.jpg",
+      "data/testdata/SURGVU25/case131/frame_000026.jpg",
+      "data/testdata/SURGVU25/case131/frame_000027.jpg",
+      "data/testdata/SURGVU25/case131/frame_000028.jpg",
+      "data/testdata/SURGVU25/case131/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  },
+  {
+    "id": "case132",
+    "qa_type": "surgical_vqa",
+    "metadata": {
+      "video_id": "case132",
+      "fps": "1.0",
+      "source_fps": "60.0",
+      "input_video_start_frame": "0",
+      "input_video_end_frame": "29"
+    },
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWas a large needle driver used during the surgery?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "reference_answers": [
+      "No",
+      "No, a large needle driver was not used.",
+      "A large needle driver was not used.",
+      "No large needle driver was utilized.",
+      "There is no indication a large needle driver was used."
+    ],
+    "video": [
+      "data/testdata/SURGVU25/case132/frame_000000.jpg",
+      "data/testdata/SURGVU25/case132/frame_000001.jpg",
+      "data/testdata/SURGVU25/case132/frame_000002.jpg",
+      "data/testdata/SURGVU25/case132/frame_000003.jpg",
+      "data/testdata/SURGVU25/case132/frame_000004.jpg",
+      "data/testdata/SURGVU25/case132/frame_000005.jpg",
+      "data/testdata/SURGVU25/case132/frame_000006.jpg",
+      "data/testdata/SURGVU25/case132/frame_000007.jpg",
+      "data/testdata/SURGVU25/case132/frame_000008.jpg",
+      "data/testdata/SURGVU25/case132/frame_000009.jpg",
+      "data/testdata/SURGVU25/case132/frame_000010.jpg",
+      "data/testdata/SURGVU25/case132/frame_000011.jpg",
+      "data/testdata/SURGVU25/case132/frame_000012.jpg",
+      "data/testdata/SURGVU25/case132/frame_000013.jpg",
+      "data/testdata/SURGVU25/case132/frame_000014.jpg",
+      "data/testdata/SURGVU25/case132/frame_000015.jpg",
+      "data/testdata/SURGVU25/case132/frame_000016.jpg",
+      "data/testdata/SURGVU25/case132/frame_000017.jpg",
+      "data/testdata/SURGVU25/case132/frame_000018.jpg",
+      "data/testdata/SURGVU25/case132/frame_000019.jpg",
+      "data/testdata/SURGVU25/case132/frame_000020.jpg",
+      "data/testdata/SURGVU25/case132/frame_000021.jpg",
+      "data/testdata/SURGVU25/case132/frame_000022.jpg",
+      "data/testdata/SURGVU25/case132/frame_000023.jpg",
+      "data/testdata/SURGVU25/case132/frame_000024.jpg",
+      "data/testdata/SURGVU25/case132/frame_000025.jpg",
+      "data/testdata/SURGVU25/case132/frame_000026.jpg",
+      "data/testdata/SURGVU25/case132/frame_000027.jpg",
+      "data/testdata/SURGVU25/case132/frame_000028.jpg",
+      "data/testdata/SURGVU25/case132/frame_000029.jpg"
+    ],
+    "struc_info": null,
+    "data_source": "SURGVU25"
+  }
+]

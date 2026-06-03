@@ -1,0 +1,167 @@
+{
+    "0": {
+        "metadata": {
+            "video_id": "case122",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Are there forceps being used here?",
+        "answer": "Yes, forceps are used to retract tissue.",
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    },
+    "1": {
+        "metadata": {
+            "video_id": "case123",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a large needle driver among the listed tools?",
+        "answer": "No, a large needle driver is not among the listed tools.",
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    },
+    "2": {
+        "metadata": {
+            "video_id": "case124",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What type of forceps is mentioned?",
+        "answer": "Cadiere Forceps",
+        "data_source": "SURGVU25",
+        "gnd": "Cadiere Forceps"
+    },
+    "3": {
+        "metadata": {
+            "video_id": "case125",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a suture required in this surgical step?",
+        "answer": "No, a suture is not required; instruments retract and expose tissue for dissection.",
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "4": {
+        "metadata": {
+            "video_id": "case126",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Was a large needle driver used in this clip?",
+        "answer": "No, a large needle driver was not used.",
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "5": {
+        "metadata": {
+            "video_id": "case127",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What organ is being manipulated?",
+        "answer": "Small intestine",
+        "data_source": "SURGVU25",
+        "gnd": "Uterine horn"
+    },
+    "6": {
+        "metadata": {
+            "video_id": "case128",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is a needle driver involved in the procedure?",
+        "answer": "No, a needle driver is not involved.",
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "7": {
+        "metadata": {
+            "video_id": "case129",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What procedure is this summary describing?",
+        "answer": "Laparoscopic surgery",
+        "data_source": "SURGVU25",
+        "gnd": "Endoscopic surgery or a laparoscopic surgery"
+    },
+    "8": {
+        "metadata": {
+            "video_id": "case130",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "What is the purpose of using forceps in this procedure?",
+        "answer": "Grasp and retract omentum, gut, and tissue for exposure.",
+        "data_source": "SURGVU25",
+        "gnd": "To grasp and hold tissues or objects during the surgery."
+    },
+    "9": {
+        "metadata": {
+            "video_id": "case131",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Is tissue being cut during this clip?",
+        "answer": "Yes, the bipolar instrument actively coagulates tissue.",
+        "data_source": "SURGVU25",
+        "gnd": "Yes"
+    },
+    "10": {
+        "metadata": {
+            "video_id": "case132",
+            "fps": "1.0",
+            "source_fps": "60.0",
+            "input_video_start_frame": "0",
+            "input_video_end_frame": "29"
+        },
+        "qa_type": "surgical_vqa",
+        "struc_info": null,
+        "question": "Was a large needle driver used during the surgery?",
+        "answer": "No, a large needle driver was not used.",
+        "data_source": "SURGVU25",
+        "gnd": "No"
+    }
+}

@@ -1,0 +1,51 @@
+[project]
+name = "medgrpo-inference"
+version = "0.1.0"
+description = "MedVidBench rank-#1 reproduction — zero-shot transformers inference + local scoring."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # Replaced vLLM with transformers: vLLM 0.9.x had compatibility issues on H100/CUDA 12.8.
+    # transformers natively supports Qwen2_5_VLForConditionalGeneration (model_type=qwen2_5_vl).
+    # >=4.52.0 required: 4.51.x has a bug where GenerationConfig.from_model_config calls
+    # .to_dict() on a plain dict text_config, crashing model.__init__ on this model's config.json.
+    # The model itself was saved with transformers 4.57.0 so we allow any >=4.52.
+    "transformers>=4.52.0",
+    # accelerate is required for device_map="cuda" with from_pretrained
+    "accelerate>=0.26.0",
+    # torch/torchvision are sourced from the CUDA 12.8 index below so the
+    # installed wheels carry +cu128 (compiled against cuda-12.8 runtime libs).
+    # This fixes torch.cuda.is_available() → False on CUDA 12.8 hosts that
+    # occurred with the previous torch 2.5.1+cu124 wheels.
+    "torch>=2.7.0,<2.8",
+    "torchvision>=0.22.0,<0.23",
+    "Pillow",
+    "tqdm",
+    "numpy",
+    "sentencepiece",
+    "packaging",
+    "requests",
+    # stage 2 downloads via the huggingface_hub Python API (not the CLI shim)
+    "huggingface-hub",
+    # optional: set WANDB_API_KEY to enable run tracking in score_to_eval.py
+    "wandb",
+]
+
+[tool.uv]
+# This repo is the experiment harness, not an installable package — only its
+# dependencies are managed. Without this, `uv sync` would try to build the root.
+package = false
+# vllm/torch ship CUDA wheels for linux x86_64 only. Constrain universal
+# resolution to that platform so the lock doesn't fail solving for macOS/Windows.
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+
+# Pull torch, torchvision, and torchaudio from the PyTorch CUDA 12.8 index so
+# the installed wheels are built against cu128 (CUDA 12.8 runtime libraries).
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
